@@ -1,5 +1,7 @@
 <?php
 
+namespace NatsStreaming\Test\Unit;
+
 class SubscriptionOptionsTest extends \PHPUnit_Framework_TestCase
 {
 

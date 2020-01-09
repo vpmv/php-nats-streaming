@@ -4,36 +4,22 @@
   "description": "PHP Client for nats-streaming-server.",
   "type": "library",
   "require": {
-    "protobuf-php/protobuf": "^0.1.3",
-    "repejota/nats": "^0.8.6"
+    "repejota/nats": "dev-develop",
+    "google/protobuf": "^3.11"
   },
   "require-dev": {
-    "protobuf-php/protobuf-plugin": "^0.1.2",
     "symfony/console": "^2.8@dev",
     "phpunit/phpunit": "5.3.*",
-    "satooshi/php-coveralls": "dev-master",
     "squizlabs/php_codesniffer": "~2.0",
-    "github.com/gogo/protobuf": "dev-master"
+    "google/protobuf": "^3.11",
+    "satooshi/php-coveralls": "^2.2"
   },
-  "repositories" : [
-    {
-      "type": "package",
-      "package": {
-        "name": "github.com/gogo/protobuf",
-        "version": "dev-master",
-        "source": {
-          "url": "https://github.com/gogo/protobuf",
-          "type": "git",
-          "reference": "origin/master"
-        }
-      }
-
-    }
-  ],
   "autoload": {
     "psr-4": {
       "NatsStreaming\\": "src/NatsStreaming",
-      "NatsStreamingProtos\\":"gen/NatsStreamingProtos"
+      "NatsStreamingProtos\\": "gen/NatsStreamingProtos"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

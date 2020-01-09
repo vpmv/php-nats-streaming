@@ -80,7 +80,8 @@ class TrackedNatsRequest
         return false;
     }
 
-    public function gotAck() {
+    public function gotAck()
+    {
         return $this->consumed > 0;
     }
 

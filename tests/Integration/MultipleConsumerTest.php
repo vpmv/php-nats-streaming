@@ -1,6 +1,6 @@
 <?php
 
-
+namespace NatsStreaming\Test\Integration;
 
 class MultipleConsumerTest extends PHPUnit_Framework_TestCase
 {
@@ -22,7 +22,7 @@ class MultipleConsumerTest extends PHPUnit_Framework_TestCase
     {
 
 
-        $suffix = basename($script) . uniqid('',true).'.log';
+        $suffix = basename($script) . uniqid('', true).'.log';
 
         $logfile = '/tmp/'.$this->logPrefix . $args[0] . $suffix;
         $command =  $this->phpCmd . ' ' .  $script . ' ' . implode(' ', $args) . ' > ' . $logfile . ' 2>&1 & echo $! ';
