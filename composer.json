@@ -4,7 +4,7 @@
   "description": "PHP Client for nats-streaming-server.",
   "type": "library",
   "require": {
-    "repejota/nats": "dev-develop#bd089ea66ef41f557830449872389750dd12a99f",
+    "repejota/nats": "dev-develop",
     "google/protobuf": "^3.11"
   },
   "require-dev": {
