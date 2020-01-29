@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "376e16f915130980d07265f464712bfd",
+    "content-hash": "35a5d7566f36f3520b9b81a764bbccde",
     "packages": [
         {
             "name": "google/protobuf",
@@ -150,16 +150,16 @@
         },
         {
             "name": "repejota/nats",
-            "version": "dev-develop",
+            "version": "0.8.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/repejota/phpnats.git",
-                "reference": "bd089ea66ef41f557830449872389750dd12a99f"
+                "url": "https://github.com/vpmv/phpnats.git",
+                "reference": "d51db5fbd54a70b5a9af05bc32d991b033163e33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/repejota/phpnats/zipball/bd089ea66ef41f557830449872389750dd12a99f",
-                "reference": "bd089ea66ef41f557830449872389750dd12a99f",
+                "url": "https://api.github.com/repos/vpmv/phpnats/zipball/d51db5fbd54a70b5a9af05bc32d991b033163e33",
+                "reference": "d51db5fbd54a70b5a9af05bc32d991b033163e33",
                 "shasum": ""
             },
             "require": {
@@ -178,7 +178,6 @@
                     "Nats\\Test": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -208,7 +207,10 @@
                 }
             ],
             "description": "A nats.io client in PHP",
-            "time": "2018-09-05T22:26:53+00:00"
+            "support": {
+                "source": "https://github.com/vpmv/phpnats/tree/0.8.8"
+            },
+            "time": "2020-01-29T13:31:38+00:00"
         }
     ],
     "packages-dev": [
@@ -2525,7 +2527,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "repejota/nats": 20,
         "symfony/console": 20
     },
     "prefer-stable": true,

@@ -3,8 +3,14 @@
   "license": "MIT",
   "description": "PHP Client for nats-streaming-server.",
   "type": "library",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/vpmv/phpnats.git"
+    }
+  ],
   "require": {
-    "repejota/nats": "dev-develop",
+    "repejota/nats": "0.8.8",
     "google/protobuf": "^3.11"
   },
   "require-dev": {
