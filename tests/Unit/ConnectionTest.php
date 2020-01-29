@@ -1,5 +1,7 @@
 <?php
 
+namespace NatsStreaming\Test\Unit;
+
 use NatsStreaming\Connection;
 use NatsStreaming\ConnectionOptions;
 use NatsStreamingProtos\MsgProto;
